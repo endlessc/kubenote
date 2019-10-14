@@ -1,6 +1,12 @@
 # Micrometer, Prometheus, Grafana
 
 ## Configuring Microservices
+### Actuator Endpoint
+Ensure `/actuator/prometheus` endpoint is exposed.
+```
+management.endpoints.web.exposure.include=*
+```
+
 ### Pod Annotation
 ```yaml
     prometheus.io/scrape: "true"
