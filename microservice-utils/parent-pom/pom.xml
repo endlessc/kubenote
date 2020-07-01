@@ -29,7 +29,7 @@
 
 		<!-- Core Dependencies -->
 		<spring-cloud-dependencies.version>Greenwich.RC2</spring-cloud-dependencies.version>
-		<mysql-connector.version>5.1.47</mysql-connector.version>
+		<mysql-connector.version>8.0.16</mysql-connector.version>
 
 		<!-- Maven Plugins -->
 		<maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
